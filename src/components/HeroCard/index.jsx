@@ -3,7 +3,7 @@ import React from 'react';
 const HeroCard = ({ hero }) => {
 
   return (
-<div className="superhero-card">
+<div className="hero-card">
       <div>
         <img src={hero.image.url} alt={hero.name} />
       </div>

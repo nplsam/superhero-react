@@ -127,3 +127,20 @@ header {
     background-image: linear-gradient(135deg, #33ccff, #0099cc);
     text-decoration: none;
   }
+
+  .superhero-card{
+     width: 200px;
+    height: 150px;
+    background-color: #fff;
+    font-family: 'Kanit', sans-serif;
+    color: #fffff2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px;
+  }
+
+
