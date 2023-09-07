@@ -1,8 +1,9 @@
 import React from 'react'
+import { SearchWidget } from '../../components'
 
 const SearchPage = () => {
   return (
-    <div>SearchPage</div>
+    <SearchWidget />
   )
 }
 
