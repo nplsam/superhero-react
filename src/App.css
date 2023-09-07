@@ -1,0 +1,50 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  .home-page {
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://3.bp.blogspot.com/-q5m1SdSeQUc/WGrAj-pN7gI/AAAAAAAAGGI/_8Q59S37HewjOXiJ7hrglsYXLv_jwTacgCLcB/w1200-h630-p-k-no-nu/Heading.png');
+    background-size: 100% 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .cover-image {
+    background-color: rgba(0, 0, 0, 0.056);
+    padding: 200px;
+    border-radius: 10px;
+  }
+  
+  .home-page h1 {
+    font-size: 36px;
+    color: #fff; 
+  }
+  
+  .home-page p {
+    font-size: 18px;
+    color: #fff;
+  }
