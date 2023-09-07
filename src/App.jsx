@@ -8,7 +8,8 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Header />}>
         <Route index element={<Pages.HomePage />} />
-        <Route path="/superheroes" element={<Pages.SuperHeroesPage />} />
+        {/* <Route path=":id" element={<Pages.SuperHeroPage />} /> */}
+        <Route path="*" element={<Pages.NotFound />} />
       </Route>
     </Routes>
   );
